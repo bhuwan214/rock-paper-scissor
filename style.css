@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 236, 239);
+}
+
+.main{
+
+    
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 20px;
+}
+
+h2{
+    background-color: yellow;
+    width: 50vw;
+    text-align: center;
+    font-size:30px;
+    
+}
+
+
+.content{
+    margin: 0 5vw;
+    height: 60vh;
+    width: 90vw;
+    background-color: rgb(223, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
