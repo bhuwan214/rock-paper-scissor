@@ -44,15 +44,28 @@
   
   .info {
     text-align: center;
-    max-width: 30%;
     line-height: 5vh;
     padding-bottom: 10px;
   }
+
+  .info>h1{
+    /* background-color: aquamarine; */
+    width: 400px;
+    font-size: 45px;
+    text-align: start;
+  }
  
+  .info>p{
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
 .score-box{
     margin: 0 2vw;
     width: 96vw ;
-    height: 50vh;  
+    height: 32vh;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,17 +104,22 @@
     gap: 20px;
   }
   .btn li {
+    background-color:rgba(46, 49, 59, 0.961);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 10vh;
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     margin: 20px;
     border-radius: 5px;
-
   }
+
+.btn>li:hover{
+    background-color: rgba(23, 24, 24, 0.961);
+}
+
   .footer {
     width: 12vw;
     font-size: 20px;
@@ -113,7 +131,5 @@
     left: calc((100vw - 12vw)/2);
   }
 
-  .score{
-
-  }
+  
   
