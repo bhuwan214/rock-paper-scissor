@@ -16,8 +16,8 @@
     <div class="main-div">
       <div class="data">
         <div class="info">
-          <h1>Choose your weapon</h1>
-          <p>First to score 5 points wins the game</p>
+          <h1 id="scoreInfo">Choose your weapon</h1>
+          <p id="scoreMessage">First to score 5 points wins the game</p>
         </div>
       </div>
       
@@ -25,18 +25,19 @@
      
       <div class="score-box">
 
-        <div class="player-choice"><div class="choice">
-            <div class=" sign">?</div>
+        <div class="player-choice">
+            <div class="choice">
+            <div class=" sign" id="playerSign">❔</div>
         </div>
-        <div class="score">Player: <span>0</span></div>
+        <p class="score"  id="playerScore">Player: 0</p>
     </div>
         
   
        <div class="computer-choice"> 
         <div class="choice">
-        <div class="sign">?</div> 
+        <div class="sign"  id="computerSign">❔</div> 
     </div>
-    <div class="score">Computer:<span>0</span></div>
+    <p class="score" id="computerScore">Computer: 0</p>
 </div> 
        
 
@@ -44,12 +45,18 @@
 
       <!-- button portion on the page where main action is done. -->
       <div class="btn">
-        <button id="rockBtn">🪨</button>
-        <button id="paperBtn">📄</button>
-        <button id="scissorBtn">✂️</button>
+        <button id="rockBtn"><div class="sign">🪨</div></button>
+        <button id="paperBtn"><div class="sign">📄</div></button>
+        <button id="scissorBtn"><div class="sign">✂️</div></button>
       </div>
       <div class="footer"><p>Copyright ©️</p></div>
     </div>
+
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+      </div>
+      <div class="overlay" id="overlay"></div>
 <link rel="stylesheet" href="main.js">
   </body>
 </html>
