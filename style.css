@@ -1,60 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Passero+One&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Passero+One&display=swap');
-
-
-*{
-    font-family: 'Kavoon', serif;
-    font-family: 'Passero One', sans-serif;
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+* {
+  font-family: "Kavoon", serif;
+  font-family: "Passero One", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 
- }
+nav {
+  color: rgb(225, 222, 7);
+  background-color: #1e1c1c;
+  width: 100%;
+  height: 120px;
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  padding: 5px;
+}
+nav > p {
+  font-family: "Kavoon", serif;
+  word-spacing: 80px;
+}
 
+.main-container{
+    background-color: #3c3939;
+}
+.scoreboard {
+  width: 100%;
+  
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.score-info {
+  font-family: "Kavoon", serif;
+  font-weight: 800;
+  margin-top: 25px;
+  font-size: 50px;
+}
 
- nav{color: rgb(225, 222, 7);
-    background-color: #302f2f;
-    width: 100%;
-    height: 120px;
-    font-size:6vw;
+.score-message {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  gap: 10vw;
+}
+
+.sign {
+  font-size: 100px;
+  text-align: center;
+}
+.score {
+  width: 120px;
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+}
+.score-box {
+  width: 150px;
+  height: 150px;
+  /* background-color: white; */
+  border-radius: 5px;
+}
+
+.buttons{
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-weight: 800;
-    padding: 5px;
-}
-nav>p{
-    font-family: 'Kavoon', serif;
-    word-spacing:80px;
+    gap: 7vw;
+
 }
 
-.score-info{
-    width: 100%;
-     height: max-content;
-     display: flex;
-     flex-direction:column;
-     justify-content: center;
-     align-items: center;
- 
-     
-}
-
-.score-board{
-
-    font-family: 'Kavoon',serif;
-    font-weight: 800;
-    margin-top: 25px;
-    font-size: 50px;
-}
-
-.score-message{
-    font-family: sans-serif;
-font-weight: 800;
-    font-size: 25px;
-}
+btns
