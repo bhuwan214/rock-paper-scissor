@@ -1,62 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock-Paper-Scissor</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      Rock   Paper  Scissor
-    </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+      </style>
+</head>
+<body>
+    <div class="main">
 
+<div class="hero">
+    <nav><p>Rock Paper Scissors</p>
 
-    <!-- It's just info section  -->
-    <div class="main-div">
-      <div class="data">
-        <div class="info">
-          <h1 id="scoreInfo">Choose your weapon</h1>
-          <p id="scoreMessage">First to score 5 points wins the game</p>
-        </div>
-      </div>
-      
-      <!-- Main interactive section for the user -->
-     
-      <div class="score-box">
+</nav>
+</div>
 
-        <div class="player-choice">
-            <div class="choice">
-            <div class=" sign" id="playerSign">❔</div>
-        </div>
-        <p class="score"  id="playerScore">Player: 0</p>
-    </div>
-        
-  
-       <div class="computer-choice"> 
-        <div class="choice">
-        <div class="sign"  id="computerSign">❔</div> 
-    </div>
-    <p class="score" id="computerScore">Computer: 0</p>
-</div> 
-       
-
-      </div>
-
-      <!-- button portion on the page where main action is done. -->
-      <div class="btn">
-        <button id="rockBtn"><div class="sign">🪨</div></button>
-        <button id="paperBtn"><div class="sign">📄</div></button>
-        <button id="scissorBtn"><div class="sign">✂️</div></button>
-      </div>
-      <div class="footer"><p>Copyright ©️</p></div>
     </div>
 
-    <div class="modal" id="endgameModal">
-        <p class="modal-title" id="endgameMsg"></p>
-        <button class="btn btn-restart" id="restartBtn">Play again</button>
-      </div>
-      <div class="overlay" id="overlay"></div>
-<link rel="stylesheet" href="main.js">
-  </body>
+</body>
 </html>

@@ -1,186 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    width: 100%;
+
+
+*{ 
+     font-family: 'Kavoon', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Raleway', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+ html,body{
     height: 100%;
-  }
-  
-  nav {
-    display: flex;
-    background-color: RGB(17, 23, 33);
-    padding-top: 10px;
-    height: 10vh;
-    /* margin-bottom: 30px; */
-    justify-content: space-around;
-    color: yellow;
-    font-size: 40px;
-
-  }
-  
-  nav,
-  li {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    list-style-type: none;
-    font-weight: 600;
-    font-size: 4vh;
-  }
-  
-  .main-div {
-    background-color: RGB(35, 40, 49);
-    height: calc(100% - 10vh);
     width: 100%;
-  }
-  
-  .data {
-    padding-top: 2vh;
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-  }
-  
-  .info {
-    text-align: center;
-    line-height: 5vh;
-    padding-bottom: 10px;
-  }
 
-  .info>h1{
-    /* background-color: aquamarine; */
-    width: 400px;
-    font-size: 45px;
-    text-align: start;
-  }
- 
-  .info>p{
-    font-size: 20px;
-    width: 400px;
-    text-align: center;
-    padding: 10px 20px;
-    margin: 5px 0;
-  }
-.score-box{
-    margin: 0 2vw;
-    width: 96vw ;
-    height: 32vh;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10vw;
-
-
-}
-
-.choice{
-    height:150px;
-    width: 150px;
-    border-radius: 5px;
-    color: white;
-}
+ }
 
 
 
-.sign{
-    text-align: center;
-    font-size:100px;
-}
-
-.score{
-    text-align: center;
-    color: rgb(188, 174, 20);
-    margin:5px 0;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-}
-  
-  
-  .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .btn >button {
-    background-color:rgba(46, 49, 59, 0.961);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 10vh;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
-    border-radius: 5px;
-    border: none;
-  }
-
-.btn>button:hover{
-    background-color: rgba(23, 24, 24, 0.961);
-}
-
-  .footer {
-    width: 12vw;
-    font-size: 20px;
-    color: whitesmoke;
-    padding:10px;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    bottom:0;
-    left: calc((100vw - 12vw)/2);
-  }
-
-  
-  /* Modals */
-  
-.modal {
-    position: fixed;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: rgba(23, 24, 24, 0.961);
-    text-align: center;
-    font-size: 30px;
-    user-select: none;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-  }
-  
-  .modal.active {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  
-  .modal-title {
-    font-size: 40px;
-    font-weight: bold;
-  }
-  
-  .btn-restart {
-    padding: 10px 20px;
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
-  
-  .overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
+ nav{color: rgb(225, 222, 7);
+    background-color: #302f2f;
     width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.6;
-  }
-  
-  .overlay.active {
-    display: block;
-  }
-  
+    height: 120px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kavoon', serif;
+}
